@@ -8,55 +8,80 @@
         html {
             font-family: Arial, Helvetica, sans-serif;
         }
-        
+
         .center {
             text-align: center;
+            
         }
+
         .nav {
-            background-color: bisque;
+            background-color: #ffc4bc;
             padding: 15px;
             font-size: large;
             font-weight: bold;
             margin: 0px 60px 0px 60px;
-        }
-        a {
-            text-decoration: none;
+            border-radius: 10px;
         }
         footer {
-            font-size: large;
+            font-size: 20px;
             background-color: darkgray;
             padding: 10px;
             margin: 0px 60px 0px 60px;
+            border-radius: 10px;
         }
+        .footer-icon-margin {
+            margin-left: 25px;
+        }
+
         .border {
             border: none;
         }
+
         header {
             background-color: darkgray;
             padding: 10px;
             margin: 0px 60px 0px 60px;
+            border-radius: 10px;
+        }
+        .header-margin {
+            margin: 20px 20px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .header-icon-margin {
+            margin-right: 20px;    
+        }
+        nav a {
+            margin: 20px 20px;
+            text-decoration: none;
+        }
+        body {
+            background-color: #f5d9d5;
         }
     </style>
 </head>
 
 <body>
-    <header class="center">&nbsp;
-        <big><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Akash
-                Kolekar</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-phone-square"
-                aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<strong>8421742801</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;<strong>akashkolekar07@gmail.com</strong></big>
+    <header class="center">
+        <span class="header-margin">
+            <i class="fa fa-user header-icon-margin" aria-hidden="true"></i>Akash Kolekar
+        </span>
+        <span class="header-margin">
+            <i class="fa fa-phone-square header-icon-margin" aria-hidden="true"></i>8421742801
+        </span>
+        <span class="header-margin">
+            <i class="fa fa-envelope header-icon-margin" aria-hidden="true"></i>akashkolekar07@gmail.com
+        </span>
     </header>
     <br>
     <nav class="center nav">
-        <a href="home.html" target="_iframe">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="_iframe">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="_iframe">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="gallery/galary.html" target="_iframe">MY GALLERY</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="tableWithImage/tableWithImages.html"
-            target="_iframe">PROJECT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="hobbies.html" target="_iframe">HOBBIES</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="personalDetail.html" target="_iframe">PERSONAL</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="home.html" target="_iframe">HOME</a>
+        <a href="techStack.html" target="_iframe">TECH STACK</a>
+        <a href="education.html" target="_iframe">EDUCATION</a>
+        <a href="gallery/galary.html" target="_iframe">MY GALLERY</a>
+        <a href="tableWithImage/tableWithImages.html" target="_iframe">PROJECT</a>
+        <a href="hobbies.html" target="_iframe">HOBBIES</a>
+        <a href="personalDetail.html" target="_iframe">PERSONAL</a>
         <a href="others.html" target="_iframe">OTHERS</a>
     </nav>
     <br>
@@ -66,15 +91,12 @@
         </iframe>
     </div>
     <br>
-    <footer class="center"><big>
-            <strong>Follow me</strong> &nbsp;&nbsp;&nbsp;
-            <a href="www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"
-                    aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="www.google.com" target="_blank"><i class="fa fa-google"
-                    aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="www.instagram.com" target="_blank"><i class="fa fa-instagram"
-                    aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="facebook.com" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></big>
+    <footer class="center">
+            <strong>Follow me</strong>
+            <a class="footer-icon-margin" href="www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a class="footer-icon-margin" href="www.google.com" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a class="footer-icon-margin" href="www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="footer-icon-margin" href="facebook.com" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
     </footer>
 </body>
 
